@@ -1,24 +1,29 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">
-        profile
-      </h1>
+      <a class="title">
+        Takamasa Matsui
+      </a>
+      <div class="description">
+        <a>A Software Developper(Server Side)</a>
+        <br />
+        <nuxt-link to="/profile">Profile</nuxt-link>
+        <a href="https://www.facebook.com/tkmsaaaam" target="_blank">Contact</a>
+      </div>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://www.facebook.com/tkmsaaaam"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
+          class="button--facebook"
         >
-          Documentation
+          Facebook
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/tkmsaaaam/"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="button--github"
         >
           GitHub
         </a>
@@ -28,7 +33,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Home'
+    }
+  }
+}
 </script>
 
 <style>
@@ -42,29 +53,18 @@ export default {}
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
+  font-size: 80px;
+  color: #102961;
   letter-spacing: 1px;
 }
 
-.subtitle {
+.description {
   font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+  font-size: 24px;
+  color: #102961;
+  padding-top: 15px;
 }
 
 .links {
