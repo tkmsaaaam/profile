@@ -22,7 +22,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/logo_TM.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/profile/logo_TM.png' }
     ]
   },
   /*
@@ -56,5 +56,8 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+  },
+  router: {
+    base: '/profile/'
   }
 }
