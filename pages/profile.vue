@@ -7,8 +7,19 @@
       <div class="description">
         <a>A Software Developper(Server Side)</a>
         <br />
-        <nuxt-link to="/profile">Profile</nuxt-link>
+        <a>CAMPFIRE Engineer</a>
+        <br />
+        <a>Saitama University Student (Economics)</a>
+        <br />
         <a href="https://www.facebook.com/tkmsaaaam" target="_blank">Contact</a>
+      </div>
+      <div class="description">
+        <h3>Experience</h3>
+        <a>Ruby(Main Skill)</a>
+        <br />
+        <a>Vue.js</a>
+        <br />
+        <a>HTML/CSS</a>
       </div>
       <div class="links">
         <a
@@ -33,13 +44,13 @@
 </template>
 
 <script>
-export default {
-  head() {
-    return {
-      title: 'Home'
+  export default {
+    head() {
+      return {
+        title: 'Profile'
+      }
     }
   }
-}
 </script>
 
 <style>
