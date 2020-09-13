@@ -7,9 +7,7 @@
       <div class="description">
         <a>A Software Developper(Server Side)</a>
         <br />
-        <a href="https://tkmsaaaam.github.io/profile/gh-pages/profile/">
-          Profile
-        </a>
+        <nuxt-link to="/profile">Profile</nuxt-link>
         <a href="https://www.facebook.com/tkmsaaaam" target="_blank">Contact</a>
       </div>
       <div class="links">
