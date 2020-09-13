@@ -22,7 +22,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/profile/gh-pages/logo_TM.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/profile/logo_TM.png' }
     ]
   },
   /*
@@ -58,6 +58,6 @@ export default {
   build: {
   },
   router: {
-    base: '/profile/gh-pages'
+    base: '/profile/'
   }
 }
