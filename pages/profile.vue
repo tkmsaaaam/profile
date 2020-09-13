@@ -5,7 +5,7 @@
         Takamasa Matsui
       </a>
       <div class="description">
-        <a>A Software Developper(Server Side)</a>
+        <a>A Software Developper (Server)</a>
         <br />
         <a>CAMPFIRE Engineer</a>
         <br />
